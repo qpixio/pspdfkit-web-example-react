@@ -15,7 +15,7 @@
     "indexeddb"
   ],
   "author": "PSPDFKit (https://pspdfkit.com)",
-  "homepage": "https://pspdfkit.com/web",
+  "homepage": "https://pspdfkit.com",
   "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
   "readme": "https://pspdfkit.com/guides/web",
   "dependencies": {
