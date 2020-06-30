@@ -27,9 +27,9 @@
   "scripts": {
     "verify-installation": "node scripts/verify-install.js && node scripts/copy-pspdfkit-files.js",
     "prestart": "npm run verify-installation",
-    "start": "cross-env REACT_APP_PSPDFKIT_LICENSE_KEY='YOUR_LICENSE_KEY_GOES_HERE' react-scripts start",
+    "start": "react-scripts start",
     "prebuild": "npm run verify-installation",
-    "build": "cross-env REACT_APP_PSPDFKIT_LICENSE_KEY='YOUR_LICENSE_KEY_GOES_HERE' react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
