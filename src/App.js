@@ -51,6 +51,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="App-button">Tarasol Exec App by qpix.io</div>
         <div className="App-viewer">
           <PSPDFKit
             documentUrl={this.state.document}
@@ -58,9 +59,6 @@ class App extends Component {
             baseUrl={baseUrl}
           />
         </div>
-        <button className="App-button" onClick={this.openAnother}>
-          Open another document
-        </button>
       </div>
     );
   }
